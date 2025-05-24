@@ -1,7 +1,7 @@
 accessibility/redshift
 arabic/aspell
 archivers/xarchiver
-audio/asunder
+#audio/asunder
 audio/audacity
 audio/cantata
 audio/deadbeef
@@ -15,7 +15,7 @@ devel/geany
 devel/git
 devel/p5-IO-KQueue
 devel/pkgconf
-devel/py-qt5-core
+#devel/py-qt5-core
 devel/py-xdg
 devel/qt5-buildtools
 devel/qt5-linguisttools
