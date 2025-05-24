@@ -1,9 +1,9 @@
 ### About
 
-NomadBSD is a persistant live system for flash drives, based on FreeBSD.
+PersianBSD is a persistant live system for flash drives, based on FreeBSD.
 
 ### Screenshots
-![](http://nomadbsd.org/screenshots/nomadbsd-1.3-RC1-ss1.png)
+![](http://archbsd.ir/screenshots/archbsd-1.png)
 
 ### Requirements for building the image
 A recent FreeBSD system with at least 40GB free disk space. The build machine's
@@ -12,10 +12,10 @@ you want to build. If you're building the image on a system with ZFS, the build
 might fail due to a problem with the size calculation for the root file system.
 It's best to run a FreeBSD system with UFS in a virtual machine for the build.
 
-### Requirements for running NomadBSD
+### Requirements for running PersianBSD
 * A >= 5GB flash drive
 * A (amd64/i386) system with a 1.2GHz CPU and 1G of RAM should be able to run
-NomadBSD decently.
+PersianBSD decently.
 
 ### Building the image
 By default, the build script builds a 64-bit (amd64) image. For a 32-bit (i386)
@@ -34,8 +34,8 @@ the problem that caused the build to stop.
 
 ### Writing the image to an USB memory stick
 ~~~ csh
-# dd if=nomadbsd.img of=/dev/da0 bs=1M conv=sync
+# dd if=persianbsd.img of=/dev/da0 bs=1M conv=sync
 ~~~
 
 ### Ready to use image
-Visit http://nomadbsd.org to download the recent image.
+Visit http://archbsd.ir to download the recent image.
